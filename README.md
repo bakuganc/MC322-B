@@ -6,4 +6,4 @@ RA:
 232629
 
 Curso:
-Medicina Médica
+Engenharia Controle e Automação 
