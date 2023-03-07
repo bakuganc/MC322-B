@@ -1,2 +1,9 @@
-# MC322-B
-grandes peripecias divertidas no curso de MC322 :)
+**MC322 - Turma B**
+Aluno:
+Caio Vinícius
+
+RA:
+232629
+
+Curso:
+Medicina Médica
