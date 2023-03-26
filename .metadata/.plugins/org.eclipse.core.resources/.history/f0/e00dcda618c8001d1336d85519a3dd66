@@ -1,0 +1,9 @@
+
+public class Veículo {
+	 private String placa;
+	 private String marca;
+	 private String modelo;
+	 
+	 //implementação//
+	 
+}

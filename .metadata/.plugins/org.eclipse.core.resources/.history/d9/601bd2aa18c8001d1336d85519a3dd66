@@ -1,0 +1,15 @@
+
+public class Veículo {
+	 private String placa;
+	 private String marca;
+	 private String modelo;
+	 
+	 //implementação//
+	 public Veículo ( String placa , String marca , String modelo) {
+	 this . nome = nome ;
+	 this . telefone = telefone ;
+	 this . email = email ;
+	 this . endereco = endereco ;
+	 }
+	 
+}
