@@ -7,7 +7,7 @@ public class Sinistro {
 
 	// implementação//
 	public Sinistro(String id, String data, String endereço) {
-		this.id = generateRandomId();
+		this.id = generateRandomId;
 		this.data = data;
 		this.endereço = endereço;
 	}

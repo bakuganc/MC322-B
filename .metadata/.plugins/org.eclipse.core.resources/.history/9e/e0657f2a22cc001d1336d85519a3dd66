@@ -22,7 +22,6 @@ public class Main {
 				cliente.setCpf(cpf);
 			}
 			else {
-				System.out.println("CPF inválido");
 			}
 				
 			System.out.print("Digite a Data de Nascimento do cliente: ");

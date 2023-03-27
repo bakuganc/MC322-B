@@ -1,4 +1,3 @@
-import java.util.Random;
 
 public class Sinistro {
 	private String id;
@@ -7,7 +6,7 @@ public class Sinistro {
 
 	// implementação//
 	public Sinistro(String id, String data, String endereço) {
-		this.id = generateRandomId();
+		this.id = id;
 		this.data = data;
 		this.endereço = endereço;
 	}
@@ -37,17 +36,7 @@ public class Sinistro {
 		this.endereço = endereço;
 	}
 
-	private static String generateRandomId() {
-		// definir o comprimento do ID aqui//
-		int length = 10;
-		// caracteres possíveis para o ID//
-		String chars = "0123456789";
-		Random rand = new Random();
-		StringBuilder sb = new StringBuilder();
-		for (int i = 0; i < length; i++) {
-			int index = rand.nextInt(chars.length());
-			sb.append(chars.charAt(index));
-		}
-		return sb.toString();
-	}
+	
+	
+	
 }

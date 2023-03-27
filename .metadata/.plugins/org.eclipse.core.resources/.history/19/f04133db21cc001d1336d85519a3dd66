@@ -18,13 +18,8 @@ public class Main {
 			System.out.print("Digite o CPF do cliente: ");
 			String cpf = scanner.nextLine();
 			boolean valido = validarCPF(cpf);
-			if (valido == true) {
-				cliente.setCpf(cpf);
-			}
-			else {
-				System.out.println("CPF inválido");
-			}
-				
+			cliente.setCpf(cpf);
+
 			System.out.print("Digite a Data de Nascimento do cliente: ");
 			String dataNascimento = scanner.nextLine();
 			cliente.setDataNascimento(dataNascimento);
