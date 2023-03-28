@@ -15,13 +15,11 @@ public class Main {
 			String nome = scanner.nextLine();
 			cliente.setNome(nome);
 
-			for(;;){
-				System.out.print("Digite o CPF do cliente: ");
+			for(;;){System.out.print("Digite o CPF do cliente: ");
 				String cpf = scanner.nextLine();
 				boolean valido = validarCPF(cpf);
 				if (valido == true) {
 					cliente.setCpf(cpf);
-					break;
 				}
 				else {
 					System.out.println("CPF inválido");

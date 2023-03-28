@@ -21,7 +21,7 @@ public class Main {
 				boolean valido = validarCPF(cpf);
 				if (valido == true) {
 					cliente.setCpf(cpf);
-					break;
+					exit;
 				}
 				else {
 					System.out.println("CPF inválido");
