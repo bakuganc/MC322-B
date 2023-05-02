@@ -5,7 +5,8 @@ public class Cliente {
 	private String dataNascimento;
 	private int idade;
 	private String endereço;
-
+	
+	
 	// implementação//
 	public Cliente(String nome, String cpf, String dataNascimento, int idade, String endereço) {
 		this.nome = nome;
@@ -55,5 +56,6 @@ public class Cliente {
 	public void setEndereço(String endereço) {
 		this.endereço = endereço;
 	}
+
 
 }

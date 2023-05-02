@@ -1,7 +1,0 @@
-
-public class Sinistro {
-	 private String id;
-	 private String data;
-	 private String endereço;
-	
-}

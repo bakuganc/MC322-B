@@ -18,6 +18,7 @@ public class Main {
 			for(;;){
 				System.out.print("Digite o CPF do cliente: ");
 				String cpf = scanner.nextLine();
+				
 				boolean valido = validarCPF(cpf);
 				if (valido == true) {
 					cliente.setCpf(cpf);
@@ -92,6 +93,7 @@ public class Main {
 
 	}
 
+	
 	public static boolean validarCPF(String cpf) {
 		if (cpf == null || cpf.length() != 11) {
 			return false;
@@ -120,7 +122,7 @@ public class Main {
 			return false;
 		}
 
-		// Calcular o segundo dígito verificador//
+		// Calcular o segundo dígito verifi+cador//
 		soma = 0;
 		for (int i = 0; i < 10; i++) {
 			soma += (cpfArray[i] - '0') * (11 - i);
@@ -131,5 +133,5 @@ public class Main {
 		// Verificar o segundo dígito verificador//
 		return (cpfArray[10] - '0') == digito2;
 	}
-
+	
 }
