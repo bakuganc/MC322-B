@@ -29,9 +29,9 @@ public class Main {
 		Cliente demoClt = new Cliente("N/D","N/D");
 		ClientePF demoCltPF = new ClientePF("N/D","N/D","03024355065","N/D",dataTst,dataTst,"N/D","N/D");
 		ClientePJ demoCltPJ = new ClientePJ("N/D","N/D","18471967000117",dataTst);
-		menuStr += "MENU:\n"  + "1: Adicionar Cliente PJ\n" + "2: Adicionar Cliente PF\n" + "3: Remover Cliente (PF/PJ)\n"+ "4: toString()\n" + "5: Listar clientes:\n" + "6 : visualizar sinistro\n" + "7: Listar Sinistros\n" + "8: Sair"; 
+		menuStr += "MENU:\n"  + "1: Adicionar Cliente PJ\n" + "2: Adicionar Cliente PF\n" + "3: Remover Cliente (PF/PJ)\n"+ "4: toString()\n" + "5: Listar clientes:\n" + "6: visualizar sinistro\n" + "7: Listar Sinistros\n" + "8: Sair"; 
 		while(!sair){
-			System.out.println("Bem-vindo (a) a aplicação da Seguradora " + seguradora.getNome());
+			System.out.println("Bem-vindo(a) a aplicação da Seguradora " + seguradora.getNome());
 			System.out.println(menuStr);
 			opcMenu = input("");	
 			digito = opcMenu.charAt(0);
@@ -94,9 +94,10 @@ public class Main {
 					break;
 				case 8:
 					sair = true;
+					break;
 				default:
 					System.err.println("Erro: Opcao invalida");
-
+					break;
 			}
 		}
 	}
