@@ -84,6 +84,8 @@ public class Main {
 
 				case 6:
 					System.out.println("Nada pra ver por aqui, circulando meliante");
+					break;
+					
 				case 7:
 					String nomeSin = input("Digite o nome");
 					if(seguradora.visualizarSinistros(nomeSin)){
