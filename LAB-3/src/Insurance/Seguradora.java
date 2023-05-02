@@ -55,6 +55,9 @@ public class Seguradora {
 		this.endereco = endereco;
 	}
 
+	
+	
+	//valores pra lista//
 	public ArrayList<Sinistro> getListaSinistro(){
 			return this.listaSinistros;
 		}
@@ -78,7 +81,7 @@ public class Seguradora {
 		int posicao = 0;
 		for(Cliente c : listaClientes){
 			System.out.println(c);
-			if(c.getNome() == cliente){
+			if(c.getNome() .equals(cliente)){
 				listaClientes.remove(posicao);
 				return true;
 			}
@@ -99,7 +102,7 @@ public class Seguradora {
 		}
 		int i = 0;
 		for(Cliente c: listaClientes){
-			if(c.getNome() == cliente){
+			if(c.getNome() .equals(cliente) ){
 				System.out.println(listaSinistros.get(i));
 				return true;
 			}

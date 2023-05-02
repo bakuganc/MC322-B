@@ -82,6 +82,8 @@ public class Main {
 					seguradora.listarClientes(tipoClt);
 					break;
 
+				case 6:
+					System.out.println("Nada pra ver por aqui, circulando meliante");
 				case 7:
 					String nomeSin = input("Digite o nome");
 					if(seguradora.visualizarSinistros(nomeSin)){
@@ -89,7 +91,7 @@ public class Main {
 						seguradora.visualizarSinistros(nomeSin);
 					}
 					else{
-						System.err.println("Não foi possivel visualizar o cliente de CPF/CNPJ " + nomeSin + "Razão: " + "Nome inexistente");
+						System.err.println("Não foi possivel visualizar o cliente de CPF/CNPJ " + nomeSin + " Razão: " + "Nome inexistente");
 					}
 					break;
 				case 8:
