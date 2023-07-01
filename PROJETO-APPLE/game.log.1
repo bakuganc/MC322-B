@@ -1,0 +1,46 @@
+Mezh. 26, 2023 5:05:05 G.M. de.gurkenlabs.litiengine.DefaultUncaughtExceptionHandler uncaughtException
+SEVERE: Game crashed! :(
+de.gurkenlabs.litiengine.resources.ResourceLoadException: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:395)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:276)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.get(ResourcesContainer.java:209)
+	at de.gurkenlabs.litiengine.environment.GameWorld.getEnvironment(GameWorld.java:319)
+	at de.gurkenlabs.litiengine.environment.GameWorld.loadEnvironment(GameWorld.java:424)
+	at Main.main(Main.java:9)
+Caused by: de.gurkenlabs.litiengine.environment.tilemap.xml.TmxException
+	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:111)
+	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:32)
+	at de.gurkenlabs.litiengine.resources.ResourcesContainer.loadResource(ResourcesContainer.java:393)
+	... 6 more
+Caused by: jakarta.xml.bind.UnmarshalException
+ - with linked exception:
+[org.xml.sax.SAXParseException; systemId: file:/C:/Users/Caio/Desktop/Projeto-MC322/PROJETO-APPLE/maps/tela_branca.tmx; lineNumber: 1; columnNumber: 1; Premature end of file.]
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.createUnmarshalException(AbstractUnmarshallerImpl.java:310)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.createUnmarshalException(UnmarshallerImpl.java:538)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:224)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal(UnmarshallerImpl.java:189)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:140)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:145)
+	at jakarta.xml.bind.helpers.AbstractUnmarshallerImpl.unmarshal(AbstractUnmarshallerImpl.java:154)
+	at de.gurkenlabs.litiengine.util.io.XmlUtilities.read(XmlUtilities.java:98)
+	at de.gurkenlabs.litiengine.resources.Maps.load(Maps.java:109)
+	... 8 more
+Caused by: org.xml.sax.SAXParseException; systemId: file:/C:/Users/Caio/Desktop/Projeto-MC322/PROJETO-APPLE/maps/tela_branca.tmx; lineNumber: 1; columnNumber: 1; Premature end of file.
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:178)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1465)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:1013)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:542)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:889)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:825)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:637)
+	at org.glassfish.jaxb.runtime.v2.runtime.unmarshaller.UnmarshallerImpl.unmarshal0(UnmarshallerImpl.java:218)
+	... 14 more
+

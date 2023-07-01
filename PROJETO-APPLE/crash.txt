@@ -1,0 +1,28 @@
+Mon Jun 26 22:31:36 BRT 2023 main threw an exception:
+java.lang.Error: Unresolved compilation problems: 
+	The method addMenuItem(String, this::iniciarNovoJogo) is undefined for the type Menu
+	The method addMenuItem(String, this::abrirOpcoes) is undefined for the type Menu
+	The method addMenuItem(String, this::sairDoJogo) is undefined for the type Menu
+
+	at MeuMenu.initializeComponents(MeuMenu.java:16)
+	at de.gurkenlabs.litiengine.gui.GuiComponent.<init>(GuiComponent.java:182)
+	at de.gurkenlabs.litiengine.gui.GuiComponent.<init>(GuiComponent.java:113)
+	at de.gurkenlabs.litiengine.gui.screens.Screen.<init>(Screen.java:14)
+	at MeuMenu.<init>(MeuMenu.java:10)
+	at Main.main(Main.java:14)
+
+====Runtime Information====
+Operating System: Windows 11
+	Architecture: amd64
+	Version: 10.0
+Memory:
+	Max heap size: 4,0 GiB
+	Current heap size: 254,0 MiB
+	Heap used: 26,5 MiB
+	Free heap: 227,5 MiB
+Java Version: OpenJDK Runtime Environment 17.0.6+10 
+	Vendor: Eclipse Adoptium
+Uptime: PT1.379S
+Screens: 1
+	Screen 0: 1920x1080@60hz
+

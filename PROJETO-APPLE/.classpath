@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/annotations-16.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/jakarta.activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/jakarta.xml.bind-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/jaxb-core-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/jaxb-impl-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/jinput-2.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/jlayer-1.0.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/jorbis-0.0.17.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/litiengine-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/mp3spi-1.9.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/svgSalamander-1.1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/tritonus-share-0.3.7.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/lib/vorbisspi-1.0.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/annotations-16.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/darklaf-core-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/darklaf-macos-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/darklaf-native-utils-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/darklaf-platform-base-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/darklaf-property-loader-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/darklaf-theme-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/darklaf-utils-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/darklaf-windows-2.7.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/jakarta.activation-2.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/jakarta.xml.bind-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/jaxb-core-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/jaxb-impl-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/jinput-2.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/jlayer-1.0.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/jorbis-0.0.17.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/junit-3.8.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/litiengine-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/litiengine-utiliti-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/mp3spi-1.9.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/svgSalamander-1.1.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/swing-extensions-laf-support-0.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/swing-extensions-visual-padding-0.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/tritonus-share-0.3.7.4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/app/vorbisspi-1.0.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/litiengine-sdk-v0.5.2-beta-win/utiliti/runtime/lib/jrt-fs.jar"/>
+	<classpathentry kind="lib" path="audio"/>
+	<classpathentry kind="lib" path="localization"/>
+	<classpathentry kind="lib" path="maps"/>
+	<classpathentry kind="lib" path="sprites"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
